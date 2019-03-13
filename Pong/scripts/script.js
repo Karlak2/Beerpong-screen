@@ -22,20 +22,14 @@ function numDown(){
 }
 
 function tableUp(){
-    if(y === 5){
-        y = 5;
-        document.getElementById("numtable").innerHTML = y;
-    } else {
+    if(y < 5){
     y = y + 1;
     document.getElementById("numtable").innerHTML = y;
     }  
 }
 
 function tableDown(){
-    if(y === 1){
-        y = 1;
-        document.getElementById("numtable").innerHTML = y;
-    }  else {
+    if(y > 1){
         y = y - 1;
         document.getElementById("numtable").innerHTML = y;   
     }
