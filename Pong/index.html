@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sorrend</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="scripts/script.js" defer></script>
+        <script src="scripts/options.js" defer></script>
+    </head>
+    <body>
+        <div class="text-body columns">
+            <div class="numbers column">
+                <span class="num" id="num"></span>
+            </div>
+            <div class="tables column">
+                <p><span id="numtable"></span>.table</p>
+                <div class="teams">
+                    <div class="select">
+                        <select class="option1" id="select1">
+                          <option>Team 1</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <select class="option2"  id="select2">
+                          <option>Team 2</option>
+                        </select>
+                    </div>
+                    <a class="submitbut button is-link subbutton" onclick="submit()">Submit</a>
+                </div>
+                <div class="vsorder hidden">
+                    <span id="team1"></span>
+                    <p class="vsmar">vs.</p>
+                    <span id="team2"></span>
+                </div>
+                <a class="changebut button is-link subbutton hidden" onclick="change()">Change</a>
+            </div>
+            <a class="changebut button is-link subbutton hidden" onclick="change()">Change</a>
+        </div>
+        <div class="counters columns">
+            <div class="numberbuttons column">
+                <a class="button is-success" id="numup" onclick="numUp()">Up</a>
+                <a class="button is-danger" id="numdown" onclick="numDown()">Down</a>
+            </div>
+            <div class="tablebuttons column">
+                <a class="button is-success" id="tableup" onclick="tableUp()">Up</a>
+                <a class="button is-danger" id="tabledown" onclick="tableDown()">Down</a>
+            </div>
+        </div>
+    </body>
+</html>

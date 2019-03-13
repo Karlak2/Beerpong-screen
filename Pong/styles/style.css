@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #feff22a1;
+}
+
+.text-body{
+    width:100%;
+    height:710px;
+    text-align: center;
+    color:black;
+}
+
+.numbers {
+    margin: auto;
+    padding-left: 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+.num{
+    font-size: 30rem;
+    font-weight: 500;
+}
+
+.tables{
+    font-size: 6rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.teams {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 50px;
+    
+}
+
+.counters {
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.numberbuttons {
+    margin-left: 80px;
+}
+
+.button {
+    width: 6.5em;
+    height: 2.95em;
+}
+
+.subbutton{
+    margin: 50px;
+}
+
+.vsorder{
+    line-height: 0.9;
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.vsmar{
+    margin: 20px;
+}
