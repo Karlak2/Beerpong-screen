@@ -32,19 +32,6 @@ function tableDown(){
     }
 }
 
-
-function readTextFile() {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "csapatok.inp", true);
-    rawFile.onreadystatechange = function() {
-      if (rawFile.readyState === 4) {
-        var allText = rawFile.responseText;
-        console.log(allText);
-      }
-    }
-    rawFile.send();
-  }
-
 function submit(){
     var team1=document.getElementById("select1").value;
     var team2=document.getElementById("select2").value;
