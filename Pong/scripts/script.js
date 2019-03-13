@@ -12,10 +12,7 @@ function numUp(){
 }
 
 function numDown(){
-    if(x === 0){
-        x=0;
-        document.getElementById("num").innerHTML = x;
-    } else {
+    if(x > 0){
         x = x - 1;
         document.getElementById("num").innerHTML = x;   
     }
